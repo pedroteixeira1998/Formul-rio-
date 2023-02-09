@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}    
+.cabecalho{
+    display: flex; 
+    align-items: center;
+    flex-direction: row;
+    background-color: #5f249f;
+}  
+
+.titulo{
+    color: #fff;
+    padding: 32px;
+    padding-right: 1200px;
+}
+
+.ancora{
+    color: #fff;
+    display: flex;
+    align-items: right;
+    padding: 24px;
+}     
+
+/*Main*/
+body{
+    background-color: #5f249f;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+    
+
+
+
+
+  
+
+
+    
+  
+  
+
+
+
+
+   
+
+
+
+
