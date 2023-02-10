@@ -1,29 +1,18 @@
-
-   
-
 body{
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
     background-color: #0D1B2F;
     max-width: 2000px;
     padding: 30px;
+    
 }    
     
-    
-    
-    
- 
-   
 header{
     display: flex;
     flex-direction: row;
     align-items:center;
     justify-content: space-between;
-    padding:20px ;
-    background-color: #0D1B2F;
     
-
-
 }
 
 #title{
@@ -44,17 +33,13 @@ a{
     text-decoration: none;
 }
 
-/*.h2{
-    line-height: 5px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 80px;
-    
-    
+a:hover{
+    text-decoration: underline;
     
 }
-*/
+
+/*Main*/
+
 main{
     display: flex;
     flex-direction: row;
@@ -75,29 +60,103 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*height:vh;*/
-    background-color: #0D1B2F;
-    padding: 2rem;
+    background-color: #091e3a;
     color: #ffff;
-    border-radius: 20px;
+    border-radius: 10px;
+}   
     
-    
-    
-}
-
 .content form{
     display: flex;
     flex-direction: column;
     gap: 32px;
-} */
- 
-.inputs{
-    padding: 8px 5px;
-    outline: none;
-    border-radius: 5px;
-    background-color:#ffff ;
 
+} 
+
+
+ 
+.form{
+    padding-left: 220px;
+    padding-bottom: 50px;
+    
+ }
+
+ aside{
+    padding: 100px;
+    
+ }
+
+h3{
+    font-size: 50px;
+    color: #8c8988;
+}    
+    
+
+
+input[type="text"], input[type="email"], input[type="password"]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+ }
+
+ input:hover{
+    background-color: #1f3e69;
+    color: #ffff; 
+ }
+ 
+ button[type="submit"]{
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    color: rgb(7, 5, 5);
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ button:hover{
+    background-color:#d84343;
+    color: #ffff; 
+ }
+
+select{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 40px;
 }
+select:hover{
+    background-color: #1f3e69;
+    color: #ffff;  
+}
+
+    
+
+
+
+    
+    
+
+    
+    
+    
+   
+
+
+ 
+   
+
+
+
+    
+    
+
+
 
 
     
