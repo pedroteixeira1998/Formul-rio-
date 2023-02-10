@@ -4,75 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Formulario</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <h1 class="titulo">FORMULÁRIOS</h1>
-        <a class = "ancora" href="">Cadastre sua empresa</a>
-        <a href="" class="ancora">Quem somos?</a>
-        <a href="" class="ancora">Política de Privacidade</a>
+    <header>
+        <div id="title">
+            <h1>FORMS</h1>
+            <h1>CoDe</h1>
+        </div> 
+        <ul>
+            <li><a class = "ancora" href="">Cadastre sua empresa</a></li>
+            <li><a href="" class="ancora">Quem somos?</a></li>
+            <li><a href="" class="ancora">Política de Privacidade</a></li>
+        </ul>   
     </header>
     <main>
-        <div class="content">
-            <h2>Cadastro de Devs</h2>
-            <p>Digite a seguir seus dados.</p>
-        
-            <form action="">
+        <aside>
+            <h3>Forms</h3>
+            <h3>New solutions</h3>
+            <p>A empresa X é uma empresa líder em soluções de formulários digitais.
+            Nós acreditamos que a coleta e processamento de dados precisa ser simples, 
+                eficiente e acessível para todos. 
+            Por isso, oferecemos uma plataforma intuitiva que permite a criação de formulários personalizados em questão de minutos.
+
+             a nossa ferramenta, é possível coletar informações de uma forma organizada e segura,
+                 tornando o processo de gerenciamento de dados muito mais eficiente.
+                  Além disso, nossos formulários são totalmente responsivos e podem ser acessados de qualquer dispositivo,
+                   o que permite a coleta de dados de maneira rápida e prática, independentemente do local.
+        </aside>
+            <section class="content">
                 <div>
-                    <label for="">Nome:</label>
-                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." required>
+                    <h2>Devs Form</h2>
+                    <p>A few questions to get to know you more.</p>
                 </div>
-                <div>
-                    <label for="">Sobrenome:</label>
-                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome..." required>
-                </div>
-                <div>
-                    <label for="">E-mail:</label>
-                    <input type="email" name="email" id="email" placeholder="Digite seu E-mail..." required>
-                </div>
-                <div>
-                    <label for="">Sexo:</label>
-                    <select name="sexo" id="sexo">
-                        <option value="" selected disabled>Escolha...</option>
-                        <option value="">Feminino</option>
-                        <option value="">Masculino</option>
-                        <option value="">Prefiro não responder</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="">Qual seu foco?</label>
-                    <select name="tecnologia" id="tecnologia">
-                        <option value="" selected disabled>Escolha...</option>
-                        <option value="">Back-end</option>
-                        <option value="">Front-end</option>
-                        <option value="">FullStack</option>
-                    </select>
-                    <label for="">Nível:</label>
-                    <select name="nivel" id="nivel">
-                        <option value="" selected disabled>Escolha...</option>
-                        <option value="">Júnior</option>
-                        <option value="">Pleno</option>
-                        <option value="">Senior</option>
-                    </select>
-                </div> 
-                <div>
-                    <label for="">Como conheceu o mundo da programação?</label>
-                    <textarea name="conhecer" id="conhecer" cols="30" rows="10" placeholder="Conte aqui..."></textarea>
+                <form action="">
+                    <div>
+                        <label for="">Name:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." required class="inputs">
+                    </div>
+                    <div>
+                        <label for="">Last Name:</label>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome..." required class="inputs">
+                    </div>
+                    <div>
+                        <label for="">E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu E-mail..." required class="inputs">
+                    </div>
+                    <div>
+                        <label for="">Sex:</label>
+                        <select name="sexo" id="sexo" class="inputs">
+                            <option value="" selected disabled>Escolha...</option>
+                            <option value="">Feminino</option>
+                            <option value="">Masculino</option>
+                            <option value="">Prefiro não responder</option>
+                        </select>
+                </form>
+                
                     
-                </div> 
-        </div>  
-
-                
-                
-                
-               
-
+                        
+                        
             
+                        
+                        
+                        
+                    
 
-            </form>
+                    
 
+                    
+
+            </section>
     </main>
     <footer>
 
