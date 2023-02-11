@@ -1,0 +1,111 @@
+body{
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    background-color: #0D1B2F;
+    max-width: 2000px;
+    padding: 30px;
+    
+}    
+    
+header{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    color: #ffff;
+}
+
+li{
+   display: inline-block;
+   margin: 20px;
+
+   
+}
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+
+/*Main*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    color: #ffff;
+}
+
+p{
+    width: 500px;
+    margin: 0 auto;
+    color: #ffff;
+    
+}
+
+aside{
+    padding: 100px;
+    
+ }
+
+h3{
+    font-size: 50px;
+    color: #8c8988;
+}    
+    
+input[type="radio"] {
+    display: none;
+  }
+input:hover{
+    opacity: 80%;
+}
+  
+  label {
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  
+  input[type="radio"]:checked + label:before {
+    background-color: #333;
+  }
+  input[type="radio"][value="muito insatisfeito"] + label:before {
+    background-color: #f44336;
+  }
+  input[type="radio"][value="insatisfeito"] + label:before {
+    background-color: #ff9800;
+  }
+  
+  input[type="radio"][value="neutro"] + label:before {
+    background-color: #9e9e9e;
+  }
+  
+  input[type="radio"][value="satisfeito"] + label:before {
+    background-color: #4caf50;
+  }
+  
+  input[type="radio"][value="muito satisfeito"] + label:before {
+    background-color: green;
+  }
+  
