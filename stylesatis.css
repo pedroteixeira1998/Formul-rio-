@@ -63,9 +63,7 @@ h3{
     color: #8c8988;
 }    
     
-input[type="radio"] {
-    display: none;
-  }
+
 input:hover{
     opacity: 80%;
 }
